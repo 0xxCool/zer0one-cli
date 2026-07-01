@@ -1,0 +1,47 @@
+{
+  "name": "zer0one-cli",
+  "version": "0.1.0",
+  "description": "Command-line interface for ZER0ONE Lab — Cinema Render + Cloud Workstation",
+  "type": "module",
+  "bin": {
+    "zer0one": "./dist/index.js"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w",
+    "prepublishOnly": "npm run build"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "undici": "^6.19.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.16.5",
+    "typescript": "^5.6.2"
+  },
+  "keywords": [
+    "zer0one",
+    "blender",
+    "render",
+    "cloud",
+    "gpu",
+    "workstation"
+  ],
+  "author": "ZER0ONE Lab",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0xxCool/zer0one-cli.git"
+  },
+  "homepage": "https://zer0onelab.com"
+}
