@@ -8,10 +8,12 @@ Workstations directly from your terminal.
 ## Install
 
 ```sh
-npm install -g zer0one-cli
+npm install -g github:0xxCool/zer0one-cli
 ```
 
-Requires Node.js 20+.
+Requires Node.js 20+.  (An npm-registry release is planned but for now
+the CLI lives directly on GitHub — npm can install straight from the
+repository URL.)
 
 ## Quick start
 
