@@ -16,7 +16,6 @@
   "scripts": {
     "build": "tsc",
     "dev": "tsc -w",
-    "prepare": "npm run build",
     "prepublishOnly": "npm run build"
   },
   "engines": {
