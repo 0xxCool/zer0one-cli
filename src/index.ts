@@ -24,7 +24,7 @@ const program = new Command();
 program
   .name("zer0one")
   .description("ZER0ONE Lab — Cinema Render + Cloud Workstation from your terminal")
-  .version("0.1.0");
+  .version("0.2.0");
 
 program
   .command("login")
